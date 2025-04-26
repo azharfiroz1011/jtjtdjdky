@@ -1,1 +1,1 @@
-C:\Users\Rick\Downloads\ansible.pem C:\Users\Rick\Downloads\ansible.pem ubuntu@3.101.33.2:/home/ubuntu/
+ansible-playbook -i inventory setup-webserver.yml --private-key /home/ubuntu/ansible.pem
